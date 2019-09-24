@@ -1,0 +1,336 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Website Title -->
+    <title>Andrew Nashaat - Digital Fabricator</title>
+    <!-- Bootstrap -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="test1.css" rel="stylesheet">
+  </head>
+<main class="app-content">
+
+<div class="single-wrapper container">
+	<div class="main-content">
+
+		<article class="single-article">
+			<h1 class="title">A Simple and Non-Scary Guide to HTML for Bloggers</h1>
+			<div class="post-content">
+				<p></p>
+<p>Even if you haven’t launched your blog yet, you’ve probably come across the term ‘HTML’. You might know what it looks like. Or you might just have a hazy idea it has something to do with web pages – like I did when I started.</p>
+<p>My first experience with HTML was back in 2002, when I wanted to change the design of my my first blog. But one look at all the seemingly random ‘code’ on the page and I immediately put designing my own blog in the ‘too hard’ basket.</p>
+<p>In fact, anything remotely technical on that first blog felt too hard. Even making a word bold wasn’t easy. You couldn’t just hit the ‘b’ button in the back end of your blog to magically change it. You had to know the code for bolding words.</p>
+<p>As a result, it took me three months of writing completely in plain text before I learnt my first bit of HTML code.</p>
+<p>&lt;strong&gt;&lt;/strong&gt;</p>
+<p>With that under my belt I decided I could learn a bit more. And I discovered the basics aren’t too hard to master.</p>
+<p>And that with that knowledge comes benefits.</p>
+<p>Like me when I started, many bloggers think HTML is complicated or intimidating. But it doesn’t need to be.</p>
+<p><span style="font-weight: bold;">Today, I’ll explain what HTML is, what it looks like, how it works, and why it’s important for bloggers to have a basic grasp of it.</span></p>
+<p>By the end of the post, you’ll be able to write your own simple HTML code (and I promise it’ll be much easier than you think).</p>
+<p>Note: In this post, all instructions are for self-hosted WordPress blogs. But the HTML code itself will always be the same, regardless of what platform you use.</p>
+<h2>What Does HTML Mean, and What Does It Do?</h2>
+<p>HTML stands for ‘Hypertext markup language’.</p>
+<p>It’s used to ‘mark up’ plain text so it can be formatted with paragraph breaks, bold or italic sections, coloured&nbsp;fonts, and much more.</p>
+<p>The ‘hypertext’ part means the text can include links (or ‘hyperlinks’) to other resources.</p>
+<p>If this blog post didn’t use HTML at all, it’ would start like this:</p>
+<p>Even if you haven’t launched your blog yet, you’ve probably come across the term ‘HTML’. You might know what it looks like. Or you might just have a hazy idea it has something to do with web pages – like I did when I started. My first experience with HTML was back in 2002, when I wanted to change the design of my my first blog. But one look at all the seemingly random ‘code’ on the page and I immediately put designing my own blog in the ‘too hard’ basket. In fact, anything remotely technical on that first blog felt too hard. Even making a word bold wasn’t easy. You couldn’t just hit the ‘b’ button in the back end of your blog to magically change it. You had to know the code for bolding words. As a result, it took me three months of writing completely in plain text before I learnt my first bit of HTML code. &lt;strong&gt;&lt;/strong&gt; With that under my belt I decided I could learn a bit more. And I discovered the basics aren’t too hard to master. And that with that knowledge comes benefits. Like me when I started, many bloggers think HTML is complicated or intimidating. But it doesn’t need to be. Today, I’ll explain what HTML is, what it looks like, how it works, and why it’s important for bloggers to have a basic grasp of it. By the end of the post, you’ll be able to write your own simple HTML code (and I promise it’ll be much easier than you think).</p>
+<p>Not very easy to read, is it? With HTML, the post has paragraph breaks, bold text, and more.</p>
+<h2>What Does HTML Code Look Like?</h2>
+<p>All of your blog posts already include HTML that WordPress has put there for you. Here’s an example of HTML:</p>
+<pre>&lt;p&gt;For a limited time, you can buy my ebook for &lt;strong&gt;just $3.99&lt;/strong&gt;.&lt;/p&gt;</pre>
+<p>And here’s how that sentence would look on the live website:</p>
+<p>For a limited time, you can buy my ebook for <span style="font-weight: bold;">just $3.99</span>.</p>
+<p>This is what the code does:</p>
+<ul>
+<li>The &lt;p&gt; and &lt;/p&gt; start and end the paragraph.</li>
+<li>The &lt;strong&gt; and &lt;/strong&gt; start and end the section of bold text.</li>
+</ul>
+<p>The &lt;p&gt;, &lt;/p&gt;, &lt;strong&gt; and &lt;/strong&gt; are called ‘tags’.</p>
+<p>Each ‘element’ in HTML (e.g. a paragraph, a list, a section of bold text) has to have an opening tag and a closing tag. (You might also hear them called ‘start’ and ‘end’ tags.)</p>
+<p>And closing tags always have a forward slash at the start.</p>
+<p>This can be quite a lot to take in if you haven’t seen any HTML before. Here are another couple of example so you can see simple HTML tags in action:</p>
+<pre>&lt;p&gt;For a limited time, you can buy my ebook for &lt;em&gt;just $3.00&lt;/em&gt;.&lt;/p&gt;</pre>
+<p>This sentence would look like this:</p>
+<p>For a limited time, you can buy my ebook for <span style="font-style: italic;">just $3.99</span>.</p>
+<pre>&lt;p&gt;For a limited time, you can buy my ebook for &lt;font color="red"&gt;just $3.99&lt;/font&gt;.&lt;/p&gt;<a href="#cmnt3">[c]</a></pre>
+<p>This sentence would look like this:</p>
+<p>For a limited time, you can buy my ebook for just $3.99.</p>
+<p>Note: HTML instructions are always spelt using US English. So make sure you use ‘color’ and not ‘colour’.</p>
+<h2>How to View the HTML Version of One Of Your Blog Posts</h2>
+<p>When you write a blog post, you probably use the <a href="https://problogger.com/wordpress-wysiwyg-tutorial/">“WYSIWYG” (“What You See Is What You Get”) editor</a>. This lets you see your post formatted in the same way it will appear on your website.</p>
+<p>But you can easily switch to the HTML view of your post by:</p>
+<ol>
+<li>Editing an existing post (or creating a new one)</li>
+<li>Clicking the ‘Text’ tab at the top of the posting box (next to the ‘Visual’ tab).</li>
+</ol>
+<p>You’ll now see your post marked up with HTML code. For instance, the previous few paragraphs of this post would look like this:</p>
+<p><img class="alignnone size-full wp-image-109075 jetpack-lazy-image jetpack-lazy-image--handled" src="https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=803%2C351&amp;ssl=1" alt="Text view of post" width="803" height="351" data-recalc-dims="1" srcset="https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?w=803&amp;ssl=1 803w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=300%2C131&amp;ssl=1 300w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=768%2C336&amp;ssl=1 768w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=611%2C267&amp;ssl=1 611w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=674%2C295&amp;ssl=1 674w" data-lazy-loaded="1" sizes="(max-width: 803px) 100vw, 803px"><noscript><img class="alignnone size-full wp-image-109075" src="https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=803%2C351&#038;ssl=1" alt="Text view of post" width="803" height="351" srcset="https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?w=803&amp;ssl=1 803w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=300%2C131&amp;ssl=1 300w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=768%2C336&amp;ssl=1 768w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=611%2C267&amp;ssl=1 611w, https://i2.wp.com/problogger.com/wp-content/uploads/2018/04/text-view-of-post-1.jpg?resize=674%2C295&amp;ssl=1 674w" sizes="(max-width: 803px) 100vw, 803px" data-recalc-dims="1" /></noscript></p>
+<p>To make things easier for you, WordPress doesn’t include the &lt;p&gt; &lt;/p&gt; tags around paragraphs in the Visual editor. But they’re in the HTML on your actual site.</p>
+<h3>Creating an HTML Version of Your Post</h3>
+<p>If you’re guest posting for a blog that needs posts in HTML format, you can simply create your post as a draft on your own blog using the ‘Visual’ tab as normal.</p>
+<p>Then click the ‘Text’ tab and copy the HTML version into Notepad document (or any other program that saves files as plain text).</p>
+<h2>When Might You Need to Use HTML?</h2>
+<p>Most of the time it makes perfect sense to stick with the visual editor. WordPress has made this more and more user friendly over time, and hopefully you’ll be able to do all the formatting you want using it.</p>
+<p>However, sometimes it can be very handy to at least feel comfortable with viewing HTML and making minor edits.</p>
+<p>For instance:</p>
+<ul>
+<li>If something goes wrong with your post’s formatting and you can’t easily fix/undo it in the visual editor, you may be able to spot and correct the problem when you view the HTML code.</li>
+<li>If you want to create a custom text widget for your blog (such as an ‘About’ widget to tell readers a little about you), it’s useful to be able to include a link to your ‘About’ page and a photo of you. While there are themes and plugins that can help, you may not want to add these to your blog. Using HTML is a quick, efficient way to achieve what you want with the widget.</li>
+<li>If you’re asked to supply content in HTML format (e.g. when guest posting, and particularly when providing a guest post bio), you may need to copy and paste HTML (if not actually write it).</li>
+</ul>
+<h2>Trying Out Different HTML Tags</h2>
+<p>We’ve already looked at some simple HTML tags: &lt;strong&gt;, &lt;em&gt; and &lt;font color=”red”&gt;.</p>
+<p>Here are some more tags to try. Create a draft post or page on your blog, and don’t be afraid to experiment.</p>
+<h3>Line break: &lt;br/&gt;</h3>
+<p>This tag is opened and closed all in one, which is why it has a forward slash at the end.</p>
+<p>The &lt;br/&gt; creates a single line break (not a paragraph break). You might use it if you’re writing poetry.</p>
+<p>These<br>
+Words<br>
+Are<br>
+All<br>
+Separated<br>
+By<br>
+Line<br>
+Breaks</p>
+<p>In the visual editor, you can hold down Shift while hitting Enter to create a line break.</p>
+<h3>Horizontal Rule: &lt;hr/&gt;</h3>
+<p>This is another tag that is opened and closed all in one. It creates a line across the page, like this:</p>
+<hr>
+<p>It can be useful for separating one part of your blog post from another (e.g. if you have a special offer at the start or end).</p>
+<p>In the visual editor, you can click the “Horizontal line” button to create one. It looks like this:</p>
+<p><img class="alignnone size-full wp-image-109064 jetpack-lazy-image" src="https://i0.wp.com/problogger.com/wp-content/uploads/2018/04/horizontal-line-button.jpg?resize=564%2C115&amp;ssl=1" alt="Horizontal line button in WordPress" width="564" height="115" data-recalc-dims="1" data-lazy-srcset="https://i0.wp.com/problogger.com/wp-content/uploads/2018/04/horizontal-line-button.jpg?w=564&amp;ssl=1 564w, https://i0.wp.com/problogger.com/wp-content/uploads/2018/04/horizontal-line-button.jpg?resize=300%2C61&amp;ssl=1 300w" data-lazy-sizes="(max-width: 564px) 100vw, 564px" data-lazy-src="https://i0.wp.com/problogger.com/wp-content/uploads/2018/04/horizontal-line-button.jpg?resize=564%2C115&amp;is-pending-load=1#038;ssl=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img class="alignnone size-full wp-image-109064" src="https://i0.wp.com/problogger.com/wp-content/uploads/2018/04/horizontal-line-button.jpg?resize=564%2C115&#038;ssl=1" alt="Horizontal line button in WordPress" width="564" height="115" srcset="https://i0.wp.com/problogger.com/wp-content/uploads/2018/04/horizontal-line-button.jpg?w=564&amp;ssl=1 564w, https://i0.wp.com/problogger.com/wp-content/uploads/2018/04/horizontal-line-button.jpg?resize=300%2C61&amp;ssl=1 300w" sizes="(max-width: 564px) 100vw, 564px" data-recalc-dims="1" /></noscript></p>
+<h2>Lists: &lt;ul&gt; or &lt;ol&gt; and &lt;li&gt;</h2>
+<p>As a blogger, <span style="text-decoration: underline;"><a href="https://problogger.com/use-lists-effectively/">you’re probably familiar with the importance of lists</a></span>.&nbsp;You’ll almost certainly want to create a list using bullet points or numbers at some point or other.</p>
+<p>In HTML, these lists are called:</p>
+<ul>
+<li>Unordered lists: &lt;ul&gt; (with bullet points –&nbsp;like this list)</li>
+<li>Ordered lists: &lt;ol&gt; (with numbers)</li>
+</ul>
+<p>A list can look a little more complicated in HTML than some other elements. Not only does the list itself need an opening and a closing tag, each &nbsp;item in the list <span style="font-style: italic;">also</span>&nbsp;needs an opening and closing tag.</p>
+<p>Take a look at this example:</p>
+<pre>&lt;p&gt;My shopping list included:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Milk&lt;/li&gt;
+&nbsp; &nbsp;&lt;li&gt;Bread&lt;/li&gt;
+&nbsp; &nbsp;&lt;li&gt;Eggs&lt;/li&gt;&lt;/ul&gt;</pre>
+<p>This HTML would create a list that looks like this:</p>
+<p>My shopping list included:</p>
+<ul>
+<li>Milk</li>
+<li>Bread</li>
+<li>Eggs</li>
+</ul>
+<p>If you wanted to number the items on the list, you can simply replace &lt;ul&gt; and &lt;/ul&gt; with &lt;ol&gt; and &lt;/ol&gt; respectively.</p>
+<pre>&lt;p&gt;My shopping list included:&lt;/p&gt;
+&lt;ol&gt;&lt;li&gt;Milk&lt;/li&gt;
+&nbsp; &nbsp;&lt;li&gt;Bread&lt;/li&gt;
+&nbsp; &nbsp;&lt;li&gt;Eggs&lt;/li&gt;&lt;/ol&gt;</pre>
+<p>My shopping list included:</p>
+<ol>
+<li>Milk</li>
+<li>Bread</li>
+<li>Eggs</li>
+</ol>
+<h3>Links: &lt;a&gt;</h3>
+<p>The HTML tag to create a link looks a little bit more complicated than the others that we’ve looked at. That’s because the tag includes the actual link.</p>
+<p>Here’s an example:</p>
+<pre>&lt;a href="https://problogger.com/republishing-old-blog-posts/"&gt;How to Republish Old Blog Posts – and Why You’ll Want to&lt;/a&gt;</pre>
+<p>This creates a link that looks like this:</p>
+<p><span style="text-decoration: underline;"><a href="https://problogger.com/republishing-old-blog-posts/">How to Republish Old Blog Posts </a></span><span style="text-decoration: underline;"><a href="https://problogger.com/republishing-old-blog-posts/">–</a></span><span style="text-decoration: underline;"><a href="https://problogger.com/republishing-old-blog-posts/">&nbsp;and Why You’ll Want to</a></span></p>
+<p>The “href” part stands for “hypertext reference”. This is where you put the link (URL) of whatever you’re linking to. You must include the “http://” or “https://” here or the link won’t work.</p>
+<p>It’s also really important to remember to include the closing link tag, &lt;/a&gt;, otherwise the whole of your text will become a link.</p>
+<h4>Nofollow Links</h4>
+<p>And if you want to make a link ‘nofollow’ you can use the&nbsp;rel attribute which specifies the relationship between your post and the one you’re linking to. In this case the link would look like this:</p>
+<pre>&lt;a rel="nofollow" href="<span style="text-decoration: underline;"><a href="https://sitewhosponsoredyourpost.com/">https://sitewhosponsoredyourpost.com/</a></span>"&gt;Check out my sponsor here&lt;/a&gt;</pre>
+<p>You use “nofollow” to tell Google you’re not endorsing the page you’re linking to (because you were paid for the link, for example), and that Google shouldn’t follow it or attribute any value to it for ranking purposes. But people can still click through to the page.</p>
+<h3>Images: &lt;img&gt;</h3>
+<p>The image tag is opened and closed all in one.</p>
+<p>Here’s an example:</p>
+<pre>&lt;img src="<span style="text-decoration: underline;"><a href="https://problogger.com/wp-content/uploads/2016/05/how-to-start-a-blog-in-5-steps.png%22/">https://problogger.com/wp-content/uploads/2016/05/how-to-start-a-blog-in-5-steps.png"</a></span>/&gt;</pre>
+<p>You can see that the &lt;img&gt; tag operates in a similar way to the &lt;a&gt; tag. The “src” is commonly taken to mean “source”. It’s the link to the image online (normally on your own site, but you can also link to an image on a different site).</p>
+<p>To find the link for an image on your own blog, open up your Media Library, find the image, and look for the “URL” field. This is the link to the image.</p>
+<h2>Giving These HTML Tags a Try</h2>
+<p>Go ahead and try some of these HTML tags (if you haven’t already). Open up a draft post or page on your blog, and type a few paragraphs or copy something you wrote (it doesn’t matter what).</p>
+<p>Now have a go at entering some of the tags I’ve mentioned in this post. Don’t forget the closing tags. Switch back to the ‘Visual’ view to see how it looks.</p>
+<h2>Are You Feeling More Confident About HTML?</h2>
+<p>When you began reading this post, you may have felt unsure about HTML. But now you’ve seen examples of HTML tags and what they do, and I encourage you to spend ten minutes playing around with them in a draft post on your own blog.</p>
+<p>There’s a lot more you can do with HTML, including creating ‘styles’ for your different elements. But we’ll leave it there for now.</p>
+<p>I hope you’ve learned something new, and that you now feel more confident about occasionally using or editing HTML on your blog. Leave us a comment to let us know how you get on.</p>
+<span id="tve_leads_end_content" style="display: block; visibility: hidden; border: 1px solid transparent;"></span>			</div>
+		</article>
+
+
+		  <div class="author-snippet">
+    <div class="display">
+      <img alt="" src="https://secure.gravatar.com/avatar/9bbed6b579dfa11d0dd9083ef6036f68?s=120&amp;d=blank&amp;r=g" class="avatar avatar-120 photo jetpack-lazy-image" height="120" width="120" data-lazy-srcset="https://secure.gravatar.com/avatar/9bbed6b579dfa11d0dd9083ef6036f68?s=240&amp;d=blank&amp;r=g 2x" data-lazy-src="https://secure.gravatar.com/avatar/9bbed6b579dfa11d0dd9083ef6036f68?s=120&amp;is-pending-load=1#038;d=blank&amp;r=g" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/9bbed6b579dfa11d0dd9083ef6036f68?s=120&#038;d=blank&#038;r=g' srcset='https://secure.gravatar.com/avatar/9bbed6b579dfa11d0dd9083ef6036f68?s=240&#038;d=blank&#038;r=g 2x' class='avatar avatar-120 photo' height='120' width='120' /></noscript>    </div>
+    <div class="column">
+      <span class="title">About Darren Rowse</span>
+      <div class="content">Darren Rowse is the founder and editor of <a href="https://problogger.com/">ProBlogger Blog Tips</a> and <a href="https://www.digital-photography-school.com/">Digital Photography School</a>. Learn more about him <a href="https://problogger.com/about-problogger/">here</a> and connect with him on <a href="https://www.twitter.com/problogger">Twitter</a>, <a href="https://www.facebook.com/problogger">Facebook</a>, <a href="https://plus.google.com/112726038360301567381/posts">Google+</a> and <a href="https://au.linkedin.com/in/darrenrowse">LinkedIn</a>.</div>
+    </div>
+  </div>
+
+		
+		<section class="related-posts">
+			<form action="https://problogger.com" class="search-bar">
+				<label for="singleSearch" class="screen-reader-text">Search</label>
+				<input id="singleSearch" type="text" class="search" placeholder="Search" name="s">
+				<button class="button" title="Search Now"></button>
+			</form>
+			<div class="section-content">
+				<div class="column">
+										<div class="categories-sidebar features">
+						<span class="title">I need help to...</span>
+						<div class="content">
+							<div class="wrapper">
+																	<span class="feature-widget starting">
+                                        <a href="https://problogger.com/start-a-blog-portal/" title="Start a Blog" class="icon icon-starting">
+                          	                        <span class="link">Start a Blog</span>
+                        </a>
+                      </span>
+																										<span class="feature-widget creating">
+                                        <a href="https://problogger.com/create-content-portal/" title="Create Content" class="icon icon-creating">
+                          	                        <span class="link">Create Content</span>
+                        </a>
+                      </span>
+																										<span class="feature-widget finding">
+                                        <a href="https://problogger.com/find-readers-portal/" title="Find Readers" class="icon icon-finding">
+                          	                        <span class="link">Find Readers</span>
+                        </a>
+                      </span>
+																										<span class="feature-widget community">
+                                        <a href="https://problogger.com/build-community-portal/" title="Build Community" class="icon icon-community">
+                          	                        <span class="link">Build Community</span>
+                        </a>
+                      </span>
+																										<span class="feature-widget money">
+                                        <a href="https://problogger.com/make-money-blogging-portal/" title="Make Money Blogging" class="icon icon-money">
+                          	                        <span class="link">Make Money Blogging</span>
+                        </a>
+                      </span>
+																										<span class="feature-widget productivity">
+                                        <a href="https://problogger.com/be-productive-portal/" title="Be Productive" class="icon icon-productivity">
+                          	                        <span class="link">Be Productive</span>
+                        </a>
+                      </span>
+																										<span class="feature-widget technical">
+                                        <a href="https://problogger.com/category/blogging-tools-and-services/" title="Understand Technology" class="icon icon-technical">
+                          	                        <span class="link">Understand Technology</span>
+                        </a>
+                      </span>
+																										<span class="feature-widget work">
+                                        <a href="https://problogger.com/jobs/" title="Get Work" class="icon icon-work">
+                          	                        <span class="link">Get Work</span>
+                        </a>
+                      </span>
+																								</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="column">
+									</div>
+			</div>
+		</section>
+
+		
+		
+		<section class="comments" id="comments">
+  <span class="section-title">Comments</span>
+  <ol class="comment-list">
+    
+      </ol>
+
+  </section>
+
+	</div>
+	<aside class="app-sidebar" id="sidebar">
+  <div class="sidebar">
+    <div class="widget-wrapper">    <div class="cta-newsletter">
+      <span class="title">Join Our Newsletter</span>
+      <form action="https://www.getdrip.com/forms/54249362/submissions" method="post" class="form-styled">
+        <span class="user-icon">
+          <input type="text" class="third" placeholder="Name" id="drip-first-name" name="fields[first_name]" value="">
+        </span>
+        <span class="mail-icon">
+          <input type="email" id="drip-email" name="fields[email]" value="" placeholder="Join Over 321000 Readers!">
+        </span>
+<div class="hidden" style="display: none;" aria-hidden="true">
+    <label for="website">Website</label><br>
+    <input type="text" id="website" name="website" tabindex="-1" autocomplete="false" value="">
+  </div>
+        <button class="button">Subscribe</button>
+      </form>
+    </div>
+    </div><div class="widget-wrapper">    <div class="categories-sidebar social">
+      <span class="title">Follow us</span>
+      <div class="content">
+        <div class="social-sidebar">
+          <a href="https://facebook.com/problogger" target="_blank" rel="noopener" class="icon-facebook"></a>
+          <a href="https://www.twitter.com/problogger" target="_blank" rel="noopener" class="icon-twitter"></a>
+          <a href="itms://itunes.apple.com/podcast/problogger-podcast-blog-tips/id1012723880" target="_blank" rel="noopener" class="icon-itunes"></a>
+          <a href="https://www.linkedin.com/in/darrenrowse" target="_blank" rel="noopener" class="icon-linkedin"></a>
+                    <a href="https://www.youtube.com/user/darrenrowse" target="_blank" rel="noopener" class="icon-youtube"></a>
+          <a href="https://feeds.feedblitz.com/ProBlogger" target="_blank" rel="noopener" class="icon-rss"></a>
+        </div>
+      </div>
+    </div>
+    </div><div class="widget-wrapper">    <div class="categories-sidebar features">
+      <span class="title">I need help to...</span>
+      <div class="content">
+        <div class="wrapper">
+                      <span class="feature-widget starting">
+              <a href="https://problogger.com/start-a-blog-portal/" title="Start a Blog" class="icon icon-starting">
+                                <span class="link">Start a Blog</span>
+              </a>
+            </span>
+                                  <span class="feature-widget creating">
+              <a href="https://problogger.com/create-content-portal/" title="Create Content" class="icon icon-creating">
+                                <span class="link">Create Content</span>
+              </a>
+            </span>
+                                  <span class="feature-widget finding">
+              <a href="https://problogger.com/find-readers-portal/" title="Find Readers" class="icon icon-finding">
+                                <span class="link">Find Readers</span>
+              </a>
+            </span>
+                                  <span class="feature-widget community">
+              <a href="https://problogger.com/build-community-portal/" title="Build Community" class="icon icon-community">
+                                <span class="link">Build Community</span>
+              </a>
+            </span>
+                                  <span class="feature-widget money">
+              <a href="https://problogger.com/make-money-blogging-portal/" title="Make Money Blogging" class="icon icon-money">
+                                <span class="link">Make Money Blogging</span>
+              </a>
+            </span>
+                                  <span class="feature-widget productivity">
+              <a href="https://problogger.com/be-productive-portal/" title="Be Productive" class="icon icon-productivity">
+                                <span class="link">Be Productive</span>
+              </a>
+            </span>
+                                  <span class="feature-widget technical">
+              <a href="https://problogger.com/category/blogging-tools-and-services/" title="Understand Technology" class="icon icon-technical">
+                                <span class="link">Understand Technology</span>
+              </a>
+            </span>
+                                  <span class="feature-widget work">
+              <a href="https://problogger.com/jobs/" title="Get Work" class="icon icon-work">
+                                <span class="link">Get Work</span>
+              </a>
+            </span>
+                              </div>
+        <form action="https://problogger.com" class="search-bar">
+          <input type="text" class="search" placeholder="Search" name="s">
+          <button class="button"></button>
+        </form>
+      </div>
+    </div>
+    </div><div class="widget-wrapper">			<div class="textwidget"><a href="https://problogger.com/get-6-months-blog-post-ideas-free/"><img src="https://i0.wp.com/problogger.com/wp-content/uploads/2016/05/6-months-of-free-blog-post-ideas.png?w=342&amp;ssl=1" alt="recommended-blogging-resources-banner-min" class="alignnone size-full jetpack-lazy-image jetpack-lazy-image--handled" data-recalc-dims="1" data-lazy-loaded="1"><noscript><img src="https://i0.wp.com/problogger.com/wp-content/uploads/2016/05/6-months-of-free-blog-post-ideas.png?w=342&#038;ssl=1" alt="recommended-blogging-resources-banner-min" class="alignnone size-full " data-recalc-dims="1"></noscript></a>
+</div>
+		</div>  </div>
+  <div class="fixed-sidebar">
+    <div class="widget-wrapper">			<div class="textwidget"><a href="https://problogger.com/how-to-start-a-blog/"><img src="https://i1.wp.com/problogger.com/wp-content/uploads/2016/05/how-to-start-a-blog-in-5-steps.png?w=342&amp;ssl=1" alt="How to Start a Blog" class="alignnone size-full jetpack-lazy-image jetpack-lazy-image--handled" data-recalc-dims="1" data-lazy-loaded="1"><noscript><img src="https://i1.wp.com/problogger.com/wp-content/uploads/2016/05/how-to-start-a-blog-in-5-steps.png?w=342&#038;ssl=1" alt="How to Start a Blog" class="alignnone size-full" data-recalc-dims="1"></noscript></a></div>
+		</div><div class="widget-wrapper">			<div class="textwidget"><a href="https://problogger.com/recommended-blogging-resources/"><img src="https://i1.wp.com/problogger.com/wp-content/uploads/2016/05/blogging-resources-and-tools-1.png?w=342&amp;ssl=1" alt="recommended-blogging-resources-banner-min" class="alignnone size-full jetpack-lazy-image jetpack-lazy-image--handled" data-recalc-dims="1" data-lazy-loaded="1"><noscript><img src="https://i1.wp.com/problogger.com/wp-content/uploads/2016/05/blogging-resources-and-tools-1.png?w=342&#038;ssl=1" alt="recommended-blogging-resources-banner-min" class="alignnone size-full" data-recalc-dims="1"></noscript></a></div>
+		</div>  </div>
+</aside>
+</div>
+      </main>
